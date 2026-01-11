@@ -1,0 +1,18 @@
+
+.venv/
+venv/
+env/
+
+__pycache__/
+*.pyc
+
+
+*.pkl
+expert_local/
+expert_local.zip
+
+# Păstrăm modelele antrenate (.pth) ca să meargă demo-ul, 
+# dar dacă vrei să fie repo-ul mic, poți decomenta linia de mai jos:
+# *.pth
+
+.DS_Store
