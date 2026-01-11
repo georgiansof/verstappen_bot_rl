@@ -2,7 +2,7 @@ import gymnasium as gym
 import highway_env
 import numpy as np
 import pickle
-from fInal.qlearning.q_learning2 import QLearningAgent  # import your agent class from your main code
+from qLearn_DQN.qlearning.q_learning2 import QLearningAgent  # import your agent class from your main code
 import pickle
 from gymnasium.envs.registration import register
 
